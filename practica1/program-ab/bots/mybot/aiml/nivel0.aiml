@@ -117,4 +117,196 @@
     </template>
 </category>
 
+<!-- Pregunta 5 -->
+<category>
+    <pattern>
+        hay nota minima para aprobar
+    </pattern>
+    <template>
+        Para aprobar la asignatura es necesario tener una nota de 5 sobre 10.
+        No obstante es necesario tener un 3 sobre 10 en ambas partes para poder hacer media.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * nota minima ^ aprobar
+    </pattern>
+    <template>
+        <srai>
+            HAY NOTA MINIMA PARA APROBAR
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 6 -->
+<category>
+    <pattern>
+        las practicas son obligatorias
+    </pattern>
+    <template>
+        Se requerirá que el estudiante asista al menos a alguna de las sesiones prácticas dentro de los límites de entrega
+        de cada práctica y defienda ante el profesor el resultado de la correspondiente práctica. 
+        Si el alumno no se presenta a defender su práctica, está se dará por no presentada.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * practicas * obligatorias
+    </pattern>
+    <template>
+        <srai>
+            LAS PRACTICAS SON OBLIGATORIAS
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * obligatorio * practicas
+    </pattern>
+    <template>
+        <srai>
+            LAS PRACTICAS SON OBLIGATORIAS
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 7 -->
+<category>
+    <pattern>
+        cuanto vale cada practica con respecto a la nota final
+    </pattern>
+    <template>
+        Cada practica cuenta un 25% sobre 100 del 90% de la parte de practicas, y ésta a su vez cuenta un 50% de la nota final.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * cada practica * nota final
+    </pattern>
+    <template>
+        <srai>
+            CUANTO VALE CADA PRACTICA CON RESPECTO A LA NOTA FINAL 
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 8 -->
+<category>
+    <pattern>
+        cuanto vale la participacion con respecto a la nota final
+    </pattern>
+    <template>
+        La participacion es un 10% dentro del 50% de la nota de practicas con respecto a la nota final.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * participacion * nota final
+    </pattern>
+    <template>
+        <srai>
+            CUANTO VALE LA PARTICIPACION CON RESPECTO A LA NOTA FINAL
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 9 -->
+<category>
+    <pattern>
+        como se consiguen puntos por participacion
+    </pattern>
+    <template>
+        Participando en las clases de practicas por ejemplo resolviendo problemas.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * puntos * participacion ^
+    </pattern>
+    <template>
+        <srai>
+            COMO SE CONSIGUEN PUNTOS POR PARTICIPACION
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 10 -->
+<category>
+    <pattern>
+        los trabajos son individuales
+    </pattern>
+    <template>
+        Si, los trabajos son individuales. Si se encuentra uno muy parecido se suspende la asignatura.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * trabajos ^ individuales
+    </pattern>
+    <template>
+        <srai>
+            LOS TRABAJOS SON INDIVIDUALES
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 11 -->
+<category>
+    <pattern>
+        se pueden hacer los trabajos en grupo
+    </pattern>
+    <template>
+        No, los trabajos deben ser individuales.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * hacer ^ trabajos en grupo
+    </pattern>
+    <template>
+        <srai>
+            SE PUEDEN HACER LOS TRABAJOS EN GRUPO
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 12 -->
+<category>
+    <pattern>
+        hay que entregar los ejercicios de las relaciones de problemas
+    </pattern>
+    <template>
+        Si, hay que entregar los ejercicios de la relacion.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * entregar ^ ejercicios ^ relacion * problemas
+    </pattern>
+    <template>
+        <srai>
+            HAY QUE ENTREGAR LOS EJERCICIOS DE LAS RELACIONES DE PROBLEMAS
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 13 -->
+<category>
+    <pattern>
+        cuanto vale el primer examen de teoria
+    </pattern>
+    <template>
+        Si se
+    </template>
+</category>
+
 </aiml>
