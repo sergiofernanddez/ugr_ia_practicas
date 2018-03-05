@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- Pregunta 1 -->
+<category>
+    <pattern>
+        como consigo superar la parte practica
+    </pattern>
+    <template>
+        El 10% de las practicas es la asistencia y participacion en clase. El 90% es una nota media que se compone de
+        la realizacion de las 3 practicas y de un examen de problemas. Para que se pueda realizar media es necesario
+        obtener una calificacion mayor o igual a 3 puntos sobre 10.
+    </template> 
+</category>
+
+<category>
+    <pattern>
+        ^ super+ * practica
+    </pattern>
+    <template>
+        <srai>
+            COMO CONSIGO SUPERAR LA PARTE PRACTICA
+        </srai>
+    </template> 
+</category>
+
+<!-- Pregunta 2 -->
+<category>
+    <pattern>
+        como se evalua en la convocatoria ordinaria
+    </pattern>
+    <template>
+        Para la parte de teoria durante el curso se realizaran dos pruebas, cuya media sera la nota de teoria.
+        Para la parte de practicas, el 10% es la asistencia y participacion en clase y el 90% es una nota media 
+        que se compone de la realizacion de las 3 practicas y de un examen de problemas.
+        La nota total de la convocatoria ordinaria se compone del 50% nota de teoria y 50% nota de practicas.
+        El unico requisito es que para que se realice la media hay que tener minimo en ambas partes un 3 sobre 10,
+        en caso contrario se queda con la nota minima.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * evalu+ * convocatoria ordinaria
+    </pattern>
+    <template>
+        <srai>
+            COMO SE EVALUA EN LA CONVOCATORIA ORDINARIA
+        </srai>
+    </template> 
+</category>
+
+<!-- Pregunta 3 -->
+<category>
+    <pattern>
+        hay examen de practicas en la convocatoria extraordinaria
+    </pattern>
+    <template>
+        En la convocatoria extraordinaria habrá un único examen escrito (evaluado de 0 a 10)
+        en el que se incluirán tanto preguntas teóricas como preguntas de prácticas.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ examen ^ practicas * convocatoria extraordinaria ^
+    </pattern>
+    <template>
+        <srai>
+            HAY EXAMEN DE PRACTICAS EN LA CONVOCATORIA EXTRAORDINARIA
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ examen practico * convocatoria extraordinaria ^
+    </pattern>
+    <template>
+        <srai>
+            HAY EXAMEN DE PRACTICAS EN LA CONVOCATORIA EXTRAORDINARIA
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 4 -->
+<category>
+    <pattern>
+        que pasa si no puedo asistir a clase regularmente
+    </pattern>
+    <template>
+        Si no puede asisitir por motivos laborales, estado de salud, discapacidad, programas de movilidad o cualquier otra causa debidamente justificada 
+        podrá acogerse a la evaluación única final. Para ello deberá solicitarlo al Director del Departamento en las dos primeras
+        semanas de impartición de la asignatura o, excepcionalmente, en las dos primeras semanas tras la matriculación en la asignatura.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * no puedo asistir a clase ^
+    </pattern>
+    <template>
+        <srai>
+            QUE PASA SI NO PUEDO ASISTIR A CLASE REGULARMENTE
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * no puedo ir a clase ^
+    </pattern>
+    <template>
+        <srai>
+            QUE PASA SI NO PUEDO ASISTIR A CLASE REGULARMENTE
+        </srai>
+    </template>
+</category>
+
+</aiml>

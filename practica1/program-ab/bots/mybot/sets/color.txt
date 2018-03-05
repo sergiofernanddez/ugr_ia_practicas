@@ -1,0 +1,16 @@
+rojo
+amarillo
+verde
+violeta
+naranja
+negro 
+blanco
+azul
+gris
+marron
+morado
+rosa
+fucsia
+granate
+cian
+celeste

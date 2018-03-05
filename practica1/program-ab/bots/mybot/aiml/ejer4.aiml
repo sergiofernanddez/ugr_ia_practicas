@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- Primera regla -->
+<category>
+    <pattern>
+        ^ color de pelo de <set>compis</set>
+    </pattern>
+    <template>
+        El color de pelo de <star index="2"/> es <map name="pelo"><star index="2"/></map>
+    </template>
+</category>
+
+<!-- Segunda regla -->
+<category>
+    <pattern>
+        ^ color de pelo de *
+    </pattern>
+    <template>
+        No conozco a ningun <star index="2"/> en esta clase
+    </template>
+</category>
+
+<!-- Tercera regla -->
+<category>
+    <pattern>
+        ^ color de ojos de <set>compis</set>
+    </pattern>
+    <template>
+        Los ojos de <star index="2"/> son <map name="ojos"><star index="2"/></map>
+    </template>
+</category>
+
+<!-- Cuarta regla -->
+<category>
+    <pattern>
+        ^ color de ojos de *
+    </pattern>
+    <template>
+        No conozco a ningun <star index="2"/> en esta clase
+    </template>
+</category>
+
+</aiml>

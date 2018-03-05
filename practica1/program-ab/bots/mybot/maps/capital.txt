@@ -1,0 +1,10 @@
+francia:paris
+españa:madrid
+belgica:bruselas
+italia:roma
+brasil:brasilia
+argentina:buenos aires
+colombia:bogota
+australia:camberra
+rusia:moscu
+japon:tokio

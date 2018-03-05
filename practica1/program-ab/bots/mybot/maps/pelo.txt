@@ -1,0 +1,5 @@
+chino:negro
+paco:moreno
+mata:moreno
+sandro:negro
+sergio:rubio
