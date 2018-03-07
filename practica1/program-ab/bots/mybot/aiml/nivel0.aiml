@@ -305,7 +305,233 @@
         cuanto vale el primer examen de teoria
     </pattern>
     <template>
-        Si se
+        El primer examen de teoria vale un 50% de la nota de teoria.
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * puntuacion ^ primer examen ^ teoria
+    </pattern>
+    <template>
+        <srai>
+            CUANTO VALE EL PRIMER EXAMEN DE TEORIA
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       * cuenta ^ primer examen ^ teoria
+    </pattern>
+    <template>
+        <srai>
+            CUANTO VALE EL PRIMER EXAMEN DE TEORIA
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 14 -->
+<category>
+    <pattern>
+        puedo recuperar una practica o examen
+    </pattern>
+    <template>
+        No, no se puede recuperar. Sólo se puede recuperar en caso de que se suspenda la asignatura 
+        en la convocatoria extraordinaria.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ recuperar * practica * examen
+    </pattern>
+    <template>
+        <srai>
+            PUEDO RECUPERAR UNA PRACTICA O EXAMEN
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 15 -->
+<category>
+    <pattern>
+        que pasa si me copio de otro estudiante
+    </pattern>
+    <template>
+        Automaticamente, como dice la ugr, la asignatura quedaria suspensa completamente.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * me copio * estudiante
+    </pattern>
+    <template>
+        <srai>
+            QUE PASA SI ME COPIO DE OTRO ESTUDIANTE
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 16 -->
+<category>
+    <pattern>
+        que pasa si me dejo copiar de otro estudiante
+    </pattern>
+    <template>
+        Se le suspenderia la asignatura como dicta la ugr en sus estatutos.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * copi+ * estudiante ^
+    </pattern>
+    <template>
+        <srai>
+            QUE PASA SI ME DEJO COPIAR DE OTRO ESTUDIANTE
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 17 -->
+<category>
+    <pattern>
+        y si suspendo en la convocatoria ordinaria
+    </pattern>
+    <template>
+        Tendria una convocatoria extraordinaria para poder recuperar la asignatura.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * suspend+ ^ convocatoria ordinaria
+    </pattern>
+    <template>
+        <srai>
+            Y SI SUSPENDO EN LA CONVOCATORIA ORDINARIA
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 18 -->
+<category>
+    <pattern>
+        cuanto vale la practica y la teoria
+    </pattern>
+    <template>
+        Tanto la teoria como la practica tienen un valor del 50% sobre la nota de la asignatura.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * val+ * practica * teoria
+    </pattern>
+    <template>
+        <srai>
+            CUANTO VALE LA PRACTICA Y LA TEORIA
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 19 -->
+<category>
+    <pattern>
+        cual es el horario de tutorias del profesor de practicas
+    </pattern>
+    <template>
+        Los miercoles de 17:30 a 18:30 en ETSIIT
+        Los jueves de 9:00 a 13:00 en ciencias
+        Los jueves de 16:30 a 17:30 en ETSIIT
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * horario ^ tutoria ^ profesor ^ practicas
+    </pattern>
+    <template>
+        <srai>
+            CUAL ES EL HORARIO DE TUTORIAS DEL PROFESOR DE PRACTICAS
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * horario ^ tutorias ^ profesor ^ practicas
+    </pattern>
+    <template>
+        <srai>
+            CUAL ES EL HORARIO DE TUTORIAS DEL PROFESOR DE PRACTICAS
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 20 -->
+<category>
+    <pattern>
+        se puede aprobar la parte practica de la asignatura si no presento una practica
+    </pattern>
+    <template>
+        Si se puede ya que se realiza la media con las otras tres practicas y el examen de problemas.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * aprobar la parte practica ^ present+ una practica
+    </pattern>
+    <template>
+        <srai>
+            SE PUEDE APROBAR LA PARTE PRACTICA DE LA ASIGNATURA SI NO PRESENTO UNA PRACTICA
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * aprobar las practicas ^ present+ una practica
+    </pattern>
+    <template>
+        <srai>
+            SE PUEDE APROBAR LA PARTE PRACTICA DE LA ASIGNATURA SI NO PRESENTO UNA PRACTICA
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 21 -->
+<category>
+    <pattern>
+        cual es la nota minima que tengo que obtener en cada parte para hacer media
+    </pattern>
+    <template>
+        Para hacer media deberia sacar minimo un 3 sobre 10 en cada parte
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * nota minima * obtener en cada parte * media
+    </pattern>
+    <template>
+        <srai>
+            CUAL ES LA NOTA MINIMA QUE TENGO QUE OBTENER EN CADA PARTE PARA HACER MEDIA
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * nota minima * sacar en cada parte * media
+    </pattern>
+    <template>
+        <srai>
+            CUAL ES LA NOTA MINIMA QUE TENGO QUE OBTENER EN CADA PARTE PARA HACER MEDIA
+        </srai>
     </template>
 </category>
 
