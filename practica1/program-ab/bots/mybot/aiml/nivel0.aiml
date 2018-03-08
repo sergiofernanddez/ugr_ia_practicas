@@ -535,4 +535,230 @@
     </template>
 </category>
 
+<!-- Pregunta 22 -->
+<category>
+    <pattern>
+        que puntuacion obtengo en la practica 1 si opto por defender el nivel 3 y no lo supero
+    </pattern>
+    <template>
+        Si no supera el nivel 3 obtendra una calificacion de 6 puntos.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * puntuacion +tengo en la practica 1 * nivel 3 * super+
+    </pattern>
+    <template>
+        <srai>
+            QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * puntuacion ten+ en la practica 1 * nivel 3 * super+
+    </pattern>
+    <template>
+        <srai>
+            QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * nota ten+ en la practica 1 * nivel 3 * super+
+    </pattern>
+    <template>
+        <srai>
+            QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 23 -->
+<category>
+    <pattern>
+        puedo entregar la practica 1 sin hacer la tarea relativa al nivel 0
+    </pattern>
+    <template>
+        No, para continuar con la practica se debe entregar el nivel 0
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * entregar la practica 0 sin * nivel 0
+    </pattern>
+    <template>
+        <srai>
+            PUEDO ENTREGAR LA PRACTICA 1 SIN HACER LA TAREA RELATIVA AL NIVEL 0
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 24 -->
+<category>
+    <pattern>
+        que tengo que hacer si no puedo asistir a la sesion de practicas en la que me corresponde hacer la defensa de mi practica 1
+    </pattern>
+    <template>
+        Si la falta es justificada se intentará que pueda asistir a otro grupo para poder defenderla.
+        En caso contrario la practica quedará como suspensa.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * hago * asistir * practicas * defen+ * practica 1
+    </pattern>
+    <template>
+        <srai>
+            QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE MI PRACTICA 1
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * hacer * asistir * practicas * defen+ * practica 1
+    </pattern>
+    <template>
+        <srai>
+            QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE MI PRACTICA 1
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * hacer * ir * practicas * defen+ * practica 1
+    </pattern>
+    <template>
+        <srai>
+            QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE MI PRACTICA 1
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 25 -->
+<category>
+    <pattern>
+        cuantas pruebas teoricas tendre a lo largo del curso
+    </pattern>
+    <template>
+        Habra dos pruebas teoricas a lo largo del curso
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * pruebas teoricas * curso
+    </pattern>
+    <template>
+        <srai>
+            CUANTAS PRUEBAS TEORICAS TENDRE A LO LARGO DEL CURSO
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 26 -->
+<category>
+    <pattern>
+        que vale la primera prueba teorica
+    </pattern>
+    <template>
+        <srai>
+            CUANTO VALE EL PRIMER EXAMEN DE TEORIA
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * val+ * primera prueba ^ teor+
+    </pattern>
+    <template>
+        <srai>
+            CUANTO VALE EL PRIMER EXAMEN DE TEORIA
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 27 -->
+<category>
+    <pattern>
+        en que consiste el examen de ejercicios
+    </pattern>
+    <template>
+        Es un examen de las relaciones de ejercicios realizadas en practicas
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * entra * examen de ejercicios
+    </pattern>
+    <template>
+        <srai>
+            EN QUE CONSISTE EL EXAMEN DE EJERCICIOS
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 28 -->
+<category>
+    <pattern>
+        que deberia hacer si no estoy seguro de poder superar el nivel 3 de la practica 1
+    </pattern>
+    <template>
+        Intentar primero el nivel 2, ya que si lo supera obtendria mas nota que en el caso de que 
+        no saliera bien el nivel 3.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * hago * superar el nivel 3 de la practica 1
+    </pattern>
+    <template>
+        <srai>
+            QUE DEBERIA HACER SI NO ESTOY SEGURO DE PODER SUPERAR EL NIVEL 3 DE LA PRACTICA 1
+        </srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        * hacer * superar el nivel 3 de la practica 1
+    </pattern>
+    <template>
+        <srai>
+            QUE DEBERIA HACER SI NO ESTOY SEGURO DE PODER SUPERAR EL NIVEL 3 DE LA PRACTICA 1
+        </srai>
+    </template>
+</category>
+
+<!-- Pregunta 29 -->
+<category>
+    <pattern>
+        ^ programo * practica *
+    </pattern>
+    <template>
+        No, las practicas se hacen en el lenguaje AIML
+    </template>
+</category>
+
+<!-- Pregunta 30 -->
+<category>
+    <pattern>
+        _ agentes conversacionales _ agente conversacional _ practicas
+    </pattern>
+    <template>
+        No, debes ir tu a defender tu practica
+    </template>
+</category>
+
 </aiml>
