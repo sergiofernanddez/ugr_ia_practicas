@@ -1,0 +1,16 @@
+fresa:rojo_roja pequenia semiacida no si si
+manzana:amarillo_amarilla_rojo_roja_verde mediana semiacida no si si
+naranja:naranja mediana acida no si si
+kiwi:verde_amarillo_amarilla pequenia acida no no si
+mandarina:naranja pequenia acida si no no
+pinia:amarillo_amarilla_verde grande acida no si si
+mango:verde grande semiacida si si si
+melocoton:amarillo_amarilla_naranja mediana semiacida si si no
+higo:verde_morado_morada pequenia dulce no si si
+ciruela:amarillo_amarilla_morado_morada pequenia dulce si si si
+pera:verde_amarillo_amarilla mediana dulce no si si
+platano:amarillo_amarilla mediana dulce no si si
+coco:marron grande neutro no si si
+aguacate:verde mediana neutro no si si
+nuez:marron pequenia neutro no si no
+cereza:rojo_roja pequenia semiacida si no si

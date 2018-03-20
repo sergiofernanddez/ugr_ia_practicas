@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>^ piensa * fruta *</pattern>
+    <template>
+        <think>
+        <set name="fruta">
+        <random>
+            <li>Fresa</li>
+            <li>Manzana</li>
+            <li>Naranja</li>
+            <li>Kiwi</li>
+            <li>Mandarina</li>
+            <li>Pinia</li>
+            <li>Mango</li>
+            <li>Melocoton</li>
+            <li>Higo</li>
+            <li>Ciruela</li>
+            <li>Pera</li>
+            <li>Platano</li>
+            <li>Coco</li>
+            <li>Aguacate</li>
+            <li>Nuez</li>
+            <li>Cereza</li>
+        </random>
+        </set>
+        <set name="caracteristicas"><map name="info"><get name="fruta"/></map></set>
+        </think>
+        Perfecto, ya la he pensado. ¡Intenta adivinarla!
+    </template>
+</category>
+
+<!-- Regla para preguntar el color de la fruta que ha pensado -->
+<category>
+    <pattern>
+        es ^ <set>color</set>
+    </pattern>
+    <template>
+        <think>
+            <set var="color"><star index="2"/></set>
+            <set var="colores"><srai>TOP <get name="caracteristicas"/></srai></set>
+            <set var="descodificada"><srai>DECODE <get var="colores"/></srai></set>
+            <set var="buscado"><srai>FINDITEM <get var="color"/> IN <get var="descodificada"/></srai></set>
+        </think>
+
+        <condition var="buscado">
+            <li value="0">No es <get var="color"/></li>
+            <li>SI, es <get var="color"/></li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar el tamaño de la fruta que ha pensado -->
+<category>
+    <pattern>
+        es <set>tamanio</set>
+    </pattern>
+    <template>
+        <think>
+            <set var="tamanio"><star/></set>
+            <set var="buscado"><srai>FINDITEM <get var="tamanio"/> IN <get name="caracteristicas"/></srai></set>
+        </think>
+
+        <condition var="buscado">
+            <li value="0">NO, la fruta no es <get var="tamanio"/></li>
+            <li>SI, la fruta es <get var="tamanio"/></li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar el sabor de la fruta que ha pensado -->
+<category>
+    <pattern>
+        es <set>sabor</set>
+    </pattern>
+    <template>
+        <think>
+            <set var="sabor"><star/></set>
+            <set var="buscado"><srai>FINDITEM <get var="sabor"/> IN <get name="caracteristicas"/></srai></set>
+        </think>
+
+        <condition var="buscado">
+            <li value="0">NO, no es <get var="sabor"/></li>
+            <li>SI, si es <get var="sabor"/></li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar la vitamina de la fruta que ha pensado -->
+<category>
+    <pattern>
+        _ vitamina a
+    </pattern>
+    <template>
+        <think>
+            <set var="vitamina"><srai>SELECTITEM 4 IN <get name="caracteristicas"/></srai></set>
+        </think>
+
+        <condition var="vitamina">
+            <li value="no">NO, no tiene vitamina A</li>
+            <li>SI, si tiene vitamina A</li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar la vitamina de la fruta que ha pensado -->
+<category>
+    <pattern>
+        _ vitamina b
+    </pattern>
+    <template>
+        <think>
+            <set var="vitamina"><srai>SELECTITEM 5 IN <get name="caracteristicas"/></srai></set>
+        </think>
+
+        <condition var="vitamina">
+            <li value="no">NO, no tiene vitamina B</li>
+            <li>SI, si tiene vitamina B</li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar la vitamina de la fruta que ha pensado -->
+<category>
+    <pattern>
+        _ vitamina c
+    </pattern>
+    <template>
+        <think>
+            <set var="vitamina"><srai>SELECTITEM 6 IN <get name="caracteristicas"/></srai></set>
+        </think>
+
+        <condition var="vitamina">
+            <li value="no">NO, no tiene vitamina C</li>
+            <li>SI, si tiene vitamina C</li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para adivinar la fruta que el boot ha pensado -->
+<category>
+    <pattern>
+        Tu fruta es * 
+    </pattern>
+    <template>
+        <think>
+            <set var="resultado"><srai> REMAIN <star/></srai></set>
+        </think>
+
+        <condition var="resultado">
+            <li> <value><get name="fruta"/></value>¡HAS ACERTADO!</li>
+            <li>Has fallado,¡Sigue intentandolo! </li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar si una fruta es de un determinado color -->
+<category>
+    <pattern>
+        # <set>fruta</set> ^ <set>color</set>
+    </pattern>
+    <template>
+        <think>
+            <set var="color"><star index="4"/></set>
+            <set var="frutas"><star index="2"/></set>
+            <set var="info"><map name="info"><get var="frutas"/></map></set>
+            <set var="colorines"><srai>TOP <get var="info"/></srai></set>
+            <set var="descodificada"><srai>DECODE <get var="colorines"/></srai></set>
+
+            <set var="buscado"><srai>FINDITEM <get var="color"/> IN <get var="descodificada"/></srai></set>
+        </think>
+
+        <condition var="buscado">
+            <li value="0">NO</li>
+            <li>SI</li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar si una fruta es de un determinado tamaño -->
+<category>
+    <pattern>
+        # <set>fruta</set> ^ <set>tamanio</set>
+    </pattern>
+    <template>
+        <think>
+            <set var="tamanio"><star index="4"/></set>
+            <set var="frutas"><star index="2"/></set>
+            <set var="info"><map name="info"><get var="frutas"/></map></set>
+
+            <set var="buscado"><srai>FINDITEM <get var="tamanio"/> IN <get var="info"/></srai></set>
+        </think>
+
+        <condition var="buscado">
+            <li value="0">NO</li>
+            <li>SI</li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar si una fruta es de un determinado sabor -->
+<category>
+    <pattern>
+        # <set>fruta</set> ^ <set>sabor</set>
+    </pattern>
+    <template>
+        <think>
+            <set var="sabor"><star index="4"/></set>
+            <set var="frutas"><star index="2"/></set>
+            <set var="info"><map name="info"><get var="frutas"/></map></set>
+
+            <set var="buscado"><srai>FINDITEM <get var="sabor"/> IN <get var="info"/></srai></set>
+        </think>
+
+        <condition var="buscado">
+            <li value="0">NO</li>
+            <li>SI</li>
+        </condition>
+    </template>
+</category>
+
+<!-- Regla para preguntar si una fruta tiene una determinada vitamina -->
+<category>
+    <pattern>
+        # <set>fruta</set> ^ <set>vitamina</set>
+    </pattern>
+    <template>
+        <think>
+            <set var="vitamina"><star index="4"/></set>
+            <set var="frutas"><star index="2"/></set>
+            <set var="info"><map name="info"><get var="frutas"/></map></set>
+
+            <set var="buscado"><srai>FINDITEM <get var="sabor"/> IN <get var="info"/></srai></set>
+
+        <condition var="vitamina">
+            <li value="vitamina a"><set var="vit"><srai>SELECTITEM 4 IN <get var="info"/></srai></set></li>
+            <li value="vitamina b"><set var="vit"><srai>SELECTITEM 5 IN <get var="info"/></srai></set></li>
+            <li value="vitamina c"><set var="vit"><srai>SELECTITEM 6 IN <get var="info"/></srai></set></li>
+        </condition>
+        </think>
+
+        <condition var="vit">
+            <li value="no">NO</li>
+            <li>SI</li>
+        </condition>
+    </template>
+</category>
+
+</aiml>

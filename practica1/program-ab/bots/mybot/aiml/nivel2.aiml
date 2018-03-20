@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>
+        ^ pienso * fruta *
+    </pattern>
+    <template>
+        <srai>COLORINES</srai>
+
+    </template>
+</category>
+
+<category>
+    <pattern>
+        COLORINES
+    </pattern>
+    <template>
+        
+    </template>
+</category>
+
+</aiml>
