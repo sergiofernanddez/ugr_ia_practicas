@@ -1,0 +1,70 @@
+0,COMO CONSIGO SUPERAR LA PARTE PRACTICA,*,*,El 10% de las practicas es la asistencia y participacion en clase. El 90% es una nota media que se compone de#Newline        la realizacion de las 3 practicas y de un examen de problemas. Para que se pueda realizar media es necesario#Newline        obtener una calificacion mayor o igual a 3 puntos sobre 10.,nivel0.aiml
+0,^ SUPER+ * PRACTICA,*,*,<srai>#Newline            COMO CONSIGO SUPERAR LA PARTE PRACTICA#Newline        </srai>,nivel0.aiml
+0,COMO SE EVALUA EN LA CONVOCATORIA ORDINARIA,*,*,Para la parte de teoria durante el curso se realizaran dos pruebas#Comma cuya media sera la nota de teoria.#Newline        Para la parte de practicas#Comma el 10% es la asistencia y participacion en clase y el 90% es una nota media #Newline        que se compone de la realizacion de las 3 practicas y de un examen de problemas.#Newline        La nota total de la convocatoria ordinaria se compone del 50% nota de teoria y 50% nota de practicas.#Newline        El unico requisito es que para que se realice la media hay que tener minimo en ambas partes un 3 sobre 10#Comma#Newline        en caso contrario se queda con la nota minima.,nivel0.aiml
+0,* EVALU+ * CONVOCATORIA ORDINARIA,*,*,<srai>#Newline            COMO SE EVALUA EN LA CONVOCATORIA ORDINARIA#Newline        </srai>,nivel0.aiml
+0,HAY EXAMEN DE PRACTICAS EN LA CONVOCATORIA EXTRAORDINARIA,*,*,En la convocatoria extraordinaria habrá un único examen escrito (evaluado de 0 a 10)#Newline        en el que se incluirán tanto preguntas teóricas como preguntas de prácticas.,nivel0.aiml
+0,^ EXAMEN ^ PRACTICAS * CONVOCATORIA EXTRAORDINARIA ^,*,*,<srai>#Newline            HAY EXAMEN DE PRACTICAS EN LA CONVOCATORIA EXTRAORDINARIA#Newline        </srai>,nivel0.aiml
+0,^ EXAMEN PRACTICO * CONVOCATORIA EXTRAORDINARIA ^,*,*,<srai>#Newline            HAY EXAMEN DE PRACTICAS EN LA CONVOCATORIA EXTRAORDINARIA#Newline        </srai>,nivel0.aiml
+0,QUE PASA SI NO PUEDO ASISTIR A CLASE REGULARMENTE,*,*,Si no puede asisitir por motivos laborales#Comma estado de salud#Comma discapacidad#Comma programas de movilidad o cualquier otra causa debidamente justificada #Newline        podrá acogerse a la evaluación única final. Para ello deberá solicitarlo al Director del Departamento en las dos primeras#Newline        semanas de impartición de la asignatura o#Comma excepcionalmente#Comma en las dos primeras semanas tras la matriculación en la asignatura.,nivel0.aiml
+0,* NO PUEDO ASISTIR A CLASE ^,*,*,<srai>#Newline            QUE PASA SI NO PUEDO ASISTIR A CLASE REGULARMENTE#Newline        </srai>,nivel0.aiml
+0,* NO PUEDO IR A CLASE ^,*,*,<srai>#Newline            QUE PASA SI NO PUEDO ASISTIR A CLASE REGULARMENTE#Newline        </srai>,nivel0.aiml
+0,HAY NOTA MINIMA PARA APROBAR,*,*,Para aprobar la asignatura es necesario tener una nota de 5 sobre 10.#Newline        No obstante es necesario tener un 3 sobre 10 en ambas partes para poder hacer media.,nivel0.aiml
+0,* NOTA MINIMA ^ APROBAR,*,*,<srai>#Newline            HAY NOTA MINIMA PARA APROBAR#Newline        </srai>,nivel0.aiml
+0,LAS PRACTICAS SON OBLIGATORIAS,*,*,Se requerirá que el estudiante asista al menos a alguna de las sesiones prácticas dentro de los límites de entrega#Newline        de cada práctica y defienda ante el profesor el resultado de la correspondiente práctica. #Newline        Si el alumno no se presenta a defender su práctica#Comma está se dará por no presentada.,nivel0.aiml
+0,* PRACTICAS * OBLIGATORIAS,*,*,<srai>#Newline            LAS PRACTICAS SON OBLIGATORIAS#Newline        </srai>,nivel0.aiml
+0,* OBLIGATORIO * PRACTICAS,*,*,<srai>#Newline            LAS PRACTICAS SON OBLIGATORIAS#Newline        </srai>,nivel0.aiml
+0,CUANTO VALE CADA PRACTICA CON RESPECTO A LA NOTA FINAL,*,*,Cada practica cuenta un 25% sobre 100 del 90% de la parte de practicas#Comma y ésta a su vez cuenta un 50% de la nota final.,nivel0.aiml
+0,* CADA PRACTICA * NOTA FINAL,*,*,<srai>#Newline            CUANTO VALE CADA PRACTICA CON RESPECTO A LA NOTA FINAL #Newline        </srai>,nivel0.aiml
+0,CUANTO VALE LA PARTICIPACION CON RESPECTO A LA NOTA FINAL,*,*,La participacion es un 10% dentro del 50% de la nota de practicas con respecto a la nota final.,nivel0.aiml
+0,* PARTICIPACION * NOTA FINAL,*,*,<srai>#Newline            CUANTO VALE LA PARTICIPACION CON RESPECTO A LA NOTA FINAL#Newline        </srai>,nivel0.aiml
+0,COMO SE CONSIGUEN PUNTOS POR PARTICIPACION,*,*,Participando en las clases de practicas por ejemplo resolviendo problemas.,nivel0.aiml
+0,* PUNTOS * PARTICIPACION ^,*,*,<srai>#Newline            COMO SE CONSIGUEN PUNTOS POR PARTICIPACION#Newline        </srai>,nivel0.aiml
+0,LOS TRABAJOS SON INDIVIDUALES,*,*,Si#Comma los trabajos son individuales. Si se encuentra uno muy parecido se suspende la asignatura.,nivel0.aiml
+0,* TRABAJOS ^ INDIVIDUALES,*,*,<srai>#Newline            LOS TRABAJOS SON INDIVIDUALES#Newline        </srai>,nivel0.aiml
+0,SE PUEDEN HACER LOS TRABAJOS EN GRUPO,*,*,No#Comma los trabajos deben ser individuales.,nivel0.aiml
+0,* HACER ^ TRABAJOS EN GRUPO,*,*,<srai>#Newline            SE PUEDEN HACER LOS TRABAJOS EN GRUPO#Newline        </srai>,nivel0.aiml
+0,HAY QUE ENTREGAR LOS EJERCICIOS DE LAS RELACIONES DE PROBLEMAS,*,*,Si#Comma hay que entregar los ejercicios de la relacion.,nivel0.aiml
+0,* ENTREGAR ^ EJERCICIOS ^ RELACION * PROBLEMAS,*,*,<srai>#Newline            HAY QUE ENTREGAR LOS EJERCICIOS DE LAS RELACIONES DE PROBLEMAS#Newline        </srai>,nivel0.aiml
+0,CUANTO VALE EL PRIMER EXAMEN DE TEORIA,*,*,El primer examen de teoria vale un 50% de la nota de teoria.,nivel0.aiml
+0,* PUNTUACION ^ PRIMER EXAMEN ^ TEORIA,*,*,<srai>#Newline            CUANTO VALE EL PRIMER EXAMEN DE TEORIA#Newline        </srai>,nivel0.aiml
+0,* CUENTA ^ PRIMER EXAMEN ^ TEORIA,*,*,<srai>#Newline            CUANTO VALE EL PRIMER EXAMEN DE TEORIA#Newline        </srai>,nivel0.aiml
+0,PUEDO RECUPERAR UNA PRACTICA O EXAMEN,*,*,No#Comma no se puede recuperar. Sólo se puede recuperar en caso de que se suspenda la asignatura #Newline        en la convocatoria extraordinaria.,nivel0.aiml
+0,^ RECUPERAR * PRACTICA * EXAMEN,*,*,<srai>#Newline            PUEDO RECUPERAR UNA PRACTICA O EXAMEN#Newline        </srai>,nivel0.aiml
+0,QUE PASA SI ME COPIO DE OTRO ESTUDIANTE,*,*,Automaticamente#Comma como dice la ugr#Comma la asignatura quedaria suspensa completamente.,nivel0.aiml
+0,* ME COPIO * ESTUDIANTE,*,*,<srai>#Newline            QUE PASA SI ME COPIO DE OTRO ESTUDIANTE#Newline        </srai>,nivel0.aiml
+0,QUE PASA SI ME DEJO COPIAR DE OTRO ESTUDIANTE,*,*,Se le suspenderia la asignatura como dicta la ugr en sus estatutos.,nivel0.aiml
+0,* COPI+ * ESTUDIANTE ^,*,*,<srai>#Newline            QUE PASA SI ME DEJO COPIAR DE OTRO ESTUDIANTE#Newline        </srai>,nivel0.aiml
+0,Y SI SUSPENDO EN LA CONVOCATORIA ORDINARIA,*,*,Tendria una convocatoria extraordinaria para poder recuperar la asignatura.,nivel0.aiml
+0,* SUSPEND+ ^ CONVOCATORIA ORDINARIA,*,*,<srai>#Newline            Y SI SUSPENDO EN LA CONVOCATORIA ORDINARIA#Newline        </srai>,nivel0.aiml
+0,CUANTO VALE LA PRACTICA Y LA TEORIA,*,*,Tanto la teoria como la practica tienen un valor del 50% sobre la nota de la asignatura.,nivel0.aiml
+0,* VAL+ * PRACTICA * TEORIA,*,*,<srai>#Newline            CUANTO VALE LA PRACTICA Y LA TEORIA#Newline        </srai>,nivel0.aiml
+0,CUAL ES EL HORARIO DE TUTORIAS DEL PROFESOR DE PRACTICAS,*,*,Los miercoles de 17:30 a 18:30 en ETSIIT#Newline        Los jueves de 9:00 a 13:00 en ciencias#Newline        Los jueves de 16:30 a 17:30 en ETSIIT,nivel0.aiml
+0,* HORARIO ^ TUTORIA ^ PROFESOR ^ PRACTICAS,*,*,<srai>#Newline            CUAL ES EL HORARIO DE TUTORIAS DEL PROFESOR DE PRACTICAS#Newline        </srai>,nivel0.aiml
+0,* HORARIO ^ TUTORIAS ^ PROFESOR ^ PRACTICAS,*,*,<srai>#Newline            CUAL ES EL HORARIO DE TUTORIAS DEL PROFESOR DE PRACTICAS#Newline        </srai>,nivel0.aiml
+0,SE PUEDE APROBAR LA PARTE PRACTICA DE LA ASIGNATURA SI NO PRESENTO UNA PRACTICA,*,*,Si se puede ya que se realiza la media con las otras tres practicas y el examen de problemas.,nivel0.aiml
+0,* APROBAR LA PARTE PRACTICA ^ PRESENT+ UNA PRACTICA,*,*,<srai>#Newline            SE PUEDE APROBAR LA PARTE PRACTICA DE LA ASIGNATURA SI NO PRESENTO UNA PRACTICA#Newline        </srai>,nivel0.aiml
+0,* APROBAR LAS PRACTICAS ^ PRESENT+ UNA PRACTICA,*,*,<srai>#Newline            SE PUEDE APROBAR LA PARTE PRACTICA DE LA ASIGNATURA SI NO PRESENTO UNA PRACTICA#Newline        </srai>,nivel0.aiml
+0,CUAL ES LA NOTA MINIMA QUE TENGO QUE OBTENER EN CADA PARTE PARA HACER MEDIA,*,*,Para hacer media deberia sacar minimo un 3 sobre 10 en cada parte,nivel0.aiml
+0,* NOTA MINIMA * OBTENER EN CADA PARTE * MEDIA,*,*,<srai>#Newline            CUAL ES LA NOTA MINIMA QUE TENGO QUE OBTENER EN CADA PARTE PARA HACER MEDIA#Newline        </srai>,nivel0.aiml
+0,* NOTA MINIMA * SACAR EN CADA PARTE * MEDIA,*,*,<srai>#Newline            CUAL ES LA NOTA MINIMA QUE TENGO QUE OBTENER EN CADA PARTE PARA HACER MEDIA#Newline        </srai>,nivel0.aiml
+0,QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO,*,*,Si no supera el nivel 3 obtendra una calificacion de 6 puntos.,nivel0.aiml
+0,* PUNTUACION +TENGO EN LA PRACTICA 1 * NIVEL 3 * SUPER+,*,*,<srai>#Newline            QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO#Newline        </srai>,nivel0.aiml
+0,* PUNTUACION TEN+ EN LA PRACTICA 1 * NIVEL 3 * SUPER+,*,*,<srai>#Newline            QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO#Newline        </srai>,nivel0.aiml
+0,* NOTA TEN+ EN LA PRACTICA 1 * NIVEL 3 * SUPER+,*,*,<srai>#Newline            QUE PUNTUACION OBTENGO EN LA PRACTICA 1 SI OPTO POR DEFENDER EL NIVEL 3 Y NO LO SUPERO#Newline        </srai>,nivel0.aiml
+0,PUEDO ENTREGAR LA PRACTICA 1 SIN HACER LA TAREA RELATIVA AL NIVEL 0,*,*,No#Comma para continuar con la practica se debe entregar el nivel 0,nivel0.aiml
+0,* ENTREGAR LA PRACTICA 0 SIN * NIVEL 0,*,*,<srai>#Newline            PUEDO ENTREGAR LA PRACTICA 1 SIN HACER LA TAREA RELATIVA AL NIVEL 0#Newline        </srai>,nivel0.aiml
+0,QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE MI PRACTICA 1,*,*,Si la falta es justificada se intentará que pueda asistir a otro grupo para poder defenderla.#Newline        En caso contrario la practica quedará como suspensa.,nivel0.aiml
+0,* HAGO * ASISTIR * PRACTICAS * DEFEN+ * PRACTICA 1,*,*,<srai>#Newline            QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE MI PRACTICA 1#Newline        </srai>,nivel0.aiml
+0,* HACER * ASISTIR * PRACTICAS * DEFEN+ * PRACTICA 1,*,*,<srai>#Newline            QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE MI PRACTICA 1#Newline        </srai>,nivel0.aiml
+0,* HACER * IR * PRACTICAS * DEFEN+ * PRACTICA 1,*,*,<srai>#Newline            QUE TENGO QUE HACER SI NO PUEDO ASISTIR A LA SESION DE PRACTICAS EN LA QUE ME CORRESPONDE HACER LA DEFENSA DE MI PRACTICA 1#Newline        </srai>,nivel0.aiml
+0,CUANTAS PRUEBAS TEORICAS TENDRE A LO LARGO DEL CURSO,*,*,Habra dos pruebas teoricas a lo largo del curso,nivel0.aiml
+0,* PRUEBAS TEORICAS * CURSO,*,*,<srai>#Newline            CUANTAS PRUEBAS TEORICAS TENDRE A LO LARGO DEL CURSO#Newline        </srai>,nivel0.aiml
+0,QUE VALE LA PRIMERA PRUEBA TEORICA,*,*,<srai>#Newline            CUANTO VALE EL PRIMER EXAMEN DE TEORIA#Newline        </srai>,nivel0.aiml
+0,* VAL+ * PRIMERA PRUEBA ^ TEOR+,*,*,<srai>#Newline            CUANTO VALE EL PRIMER EXAMEN DE TEORIA#Newline        </srai>,nivel0.aiml
+0,EN QUE CONSISTE EL EXAMEN DE EJERCICIOS,*,*,Es un examen de las relaciones de ejercicios realizadas en practicas,nivel0.aiml
+0,* ENTRA * EXAMEN DE EJERCICIOS,*,*,<srai>#Newline            EN QUE CONSISTE EL EXAMEN DE EJERCICIOS#Newline        </srai>,nivel0.aiml
+0,QUE DEBERIA HACER SI NO ESTOY SEGURO DE PODER SUPERAR EL NIVEL 3 DE LA PRACTICA 1,*,*,Intentar primero el nivel 2#Comma ya que si lo supera obtendria mas nota que en el caso de que #Newline        no saliera bien el nivel 3.,nivel0.aiml
+0,* HAGO * SUPERAR EL NIVEL 3 DE LA PRACTICA 1,*,*,<srai>#Newline            QUE DEBERIA HACER SI NO ESTOY SEGURO DE PODER SUPERAR EL NIVEL 3 DE LA PRACTICA 1#Newline        </srai>,nivel0.aiml
+0,* HACER * SUPERAR EL NIVEL 3 DE LA PRACTICA 1,*,*,<srai>#Newline            QUE DEBERIA HACER SI NO ESTOY SEGURO DE PODER SUPERAR EL NIVEL 3 DE LA PRACTICA 1#Newline        </srai>,nivel0.aiml
+0,^ PROGRAMO * PRACTICA *,*,*,No#Comma las practicas se hacen en el lenguaje AIML,nivel0.aiml
+0,_ AGENTES CONVERSACIONALES _ AGENTE CONVERSACIONAL _ PRACTICAS,*,*,No#Comma debes ir tu a defender tu practica,nivel0.aiml

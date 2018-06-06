@@ -1,0 +1,19 @@
+0,HOLA ^,*,*,<random>#Newline            <li>Hola de nuevo#Comma que tal?</li>#Newline            <li>Hola#Comma como estas?</li>#Newline            <li>Buenas#Comma que hay?</li>#Newline        </random>,primero.aiml
+0,^ ME LLAMO *,*,*,<think><set name="nombre"><star index="2"/></set></think>#Newline        <get name="nombre"/> es un bonito nombre,primero.aiml
+0,^ QUE TAL TU,*,*,Estoy genial!!!,primero.aiml
+0,FENOMENO, ME LLAMO *,*,*,Que casualidad <star/> yo tambien tengo nombre#Comma me llamo HALberto,primero.aiml
+0,^ COMO TE LLAMAS,*,*,Mi nombre es HALfonso,primero.aiml
+0,MI NOMBRE ES *,*,*,Hola <star/>,primero.aiml
+0,ESTUDIO * EN *,*,*,En <star index="2"/>#Comma yo tambien estudio <star/>,primero.aiml
+0,CUAL ES MI NOMBRE,*,*,tu nombre es <get name="nombre"/>,primero.aiml
+0,* MI NOMBRE,*,*,<srai> CUAL ES MI NOMBRE </srai>,primero.aiml
+0,^ COMO ME LLAMO,*,*,<srai> CUAL ES MI NOMBRE </srai>,primero.aiml
+0,^ COLOR FAVORITO ES EL *,*,*,<think>#Newline            <set var="color"><star index="2"/></set>#Newline        </think>#Newline        El <get var="color"/> es un color que me gusta.,primero.aiml
+0,ES <SET>COLOR</SET> ^ COLOR,*,*,Si#Comma <star/> es un color,primero.aiml
+0,ES * UN COLOR,*,*,No#Comma <star/> no es un color,primero.aiml
+0,CUAL ES LA CAPITAL DE <SET>PAIS</SET>,*,*,La capital de <star/> es <map name="capital"><star/></map>,primero.aiml
+0,CUAL ES LA CAPITAL DE *,*,*,No se la capital de <star/>.,primero.aiml
+0,^ CAFE ^,*,*,Te gusta el cafe?,primero.aiml
+0,SI ^,TE GUSTA EL CAFE,*,Lo prefieres solo o con leche?,primero.aiml
+0,NO ^,TE GUSTA EL CAFE,*,No sabes lo que te pierdes subnormal,primero.aiml
+0,CUENTA HASTA <SET>NUMBER</SET>,*,*,<think>#Newline            <set var="contador">1</set>#Newline            <set var="salida">1</set> #Newline        </think>#Newline#Newline        <condition var="contador"> <li><value><star/></value><get var="salida"/></li> <li>#Newline            <think>#Newline                <set var="contador">#Newline                <map name="successor"><get var="contador"/></map>#Newline                </set>#Newline                <set var="salida"><get var="salida"/> <get var="contador"/></set> #Newline            </think>#Newline        <loop/>#Newline        </li> </condition>,primero.aiml
